@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+
+#scene {
+    width: 100vw;
+}
+
+.banner {
+    display: flex;
+}
+.bg {
+    width: 30vw;
+    height: 20rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.front{
+    margin: 10rem 0 0 15rem;
+}
+
+.title {
+    font-size: 10rem;
+    color: blueviolet;
+}
+
+.second {
+    font-size: 10rem;
+    color: cornflowerblue;
+}
+
+.developer {
+    object-fit: cover;
+    width: 100vw;
+    height: 30rem;
+}
+
+.laptop {
+    width: 100vw;
+}

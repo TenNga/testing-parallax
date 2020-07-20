@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Test Parallax</title>
+</head>
+<body>
+    <div class="banner rellax" data-rellax-speed="2"  data-rellax-zindex="10">
+        <div id="scene">
+            <img class="bg" data-depth="0.2" src="./bg-15.svg" />
+            <img class="front"  data-depth="0.5"src="./Computer.svg" />
+        </div>
+        <h1 class="title rellax" data-rellax-speed="-1">Front End Developer</h1>
+    </div>
+    <img class="developer rellax" data-rellax-speed="5" data-rellax-zindex="0" src="./dev.jpg" alt="Developer">
+     <h1 class="second rellax" data-rellax-speed="2" data-rellax-zindex="2">Design using modern tool and UI trends</h1>
+    <img src="./11.jpg" alt="" class="laptop rellax" data-rellax-speed="7" data-rellax-zindex="1">
+    <script>
+         var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+        var rellax = new Rellax('.rellax');
+     </script>
+</body>
+</html>

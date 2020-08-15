@@ -8,6 +8,8 @@
 
 .banner {
     display: flex;
+    position: relative;
+    z-index: 1;
 }
 .bg {
     width: 30vw;
@@ -26,16 +28,23 @@
 }
 
 .second {
-    font-size: 10rem;
+    position: relative;
+    font-size: 8rem;
+    margin: 5rem 0;
     color: cornflowerblue;
+    z-index: 1;
 }
 
 .developer {
+    position: relative;
     object-fit: cover;
     width: 100vw;
     height: 30rem;
+    z-index: 0;
 }
 
 .laptop {
+    position: relative;
     width: 100vw;
+    z-index: 0;
 }
